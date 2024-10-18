@@ -93,8 +93,6 @@ int cleanup_ioctl( void );
 void cleanup_module( void );
 
 #define DO_EXIT_NAME "finish_task_switch.isra.0"
-//#define DO_ENTER_NAME "prepare_arch_switch"
-//#define FINISH_TASK_SWITCH_NAME "finish_task_switch"
 
 #define DEBUG
 #ifdef DEBUG

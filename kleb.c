@@ -979,8 +979,8 @@ int cleanup_timer()
 		printk("The timer was still in use...\n");
 
 	return 0;
-}EB...
-Sample Exit: 360
+}
+int cleanup_ioctl()
 {
 	printk("IOCTL cleaning up\n");
 
